@@ -32,7 +32,8 @@ pip install pygame
 python main.py
 ```
 
-6. Disfruta del juego y sumérgete en una emocionante aventura estilo Zelda.
+6. Hay que cambiar el path completo por el relativo de los archivos para que el programa funcione.
+7. Disfruta del juego y sumérgete en una emocionante aventura estilo Zelda.
 
 ## Controles del juego
 

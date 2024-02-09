@@ -43,15 +43,15 @@ class Level:
 
     def create_map(self):
         layouts = {
-            "boundary": import_csv_layout("c:/Users/Usuario/Documents/Python/Python game (zelda)/Map/map_FloorBlocks.csv"),
-            "grass": import_csv_layout("c:/Users/Usuario/Documents/Python/Python game (zelda)/Map/map_Grass.csv"),
-            "object": import_csv_layout("c:/Users/Usuario/Documents/Python/Python game (zelda)/Map/map_Objects.csv"),
-            "entities": import_csv_layout("c:/Users/Usuario/Documents/Python/Python game (zelda)/Map/map_Entities.csv"),
+            "boundary": import_csv_layout("Map/map_FloorBlocks.csv"),
+            "grass": import_csv_layout("Map/map_Grass.csv"),
+            "object": import_csv_layout("Map/map_Objects.csv"),
+            "entities": import_csv_layout("Map/map_Entities.csv"),
         }
 
         graphics = {
-            "grass": import_folder("c:/Users/Usuario/Documents/Python/Python game (zelda)/Graphics/grass"),
-            "objects": import_folder("c:/Users/Usuario/Documents/Python/Python game (zelda)/Graphics/objects")
+            "grass": import_folder("Graphics/grass"),
+            "objects": import_folder("Graphics/objects")
         }
 
         for style, layouts in layouts.items():
@@ -169,7 +169,7 @@ class YSortCameraGroup(pygame.sprite.Group):
 
         # Creating the floor
         self.floor_surface = pygame.image.load(
-            "c:/Users/Usuario/Documents/Python/Python game (zelda)/graphics/tilemap/ground.png").convert()
+            "Graphics/tilemap/ground.png").convert()
         self.floor_rect = self.floor_surface.get_rect(topleft=(0, 0))
 
     def custom_draw(self, player):

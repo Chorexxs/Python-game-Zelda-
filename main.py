@@ -10,13 +10,15 @@ class Game:
         pygame.init()
         self.screen = pygame.display.set_mode((WIDTH, HEIGTH))
         pygame.display.set_caption('Zelda like game')
+        logo = pygame.image.load('Graphics/logo/triforce.png')
+        pygame.display.set_icon(logo)
         self.clock = pygame.time.Clock()
 
         self.level = Level()
 
         # sound
         main_sound = pygame.mixer.Sound(
-            "c:/Users/Usuario/Documents/Python/Python game (zelda)/Audio/main.ogg")
+            "Audio/main.ogg")
         main_sound.set_volume(0.5)
         main_sound.play(loops=-1)
 

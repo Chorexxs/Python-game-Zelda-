@@ -7,7 +7,7 @@ class MagicPlayer:
     def __init__(self, animation_player):
         self.animation_player = animation_player
         self.sounds = {"heal": pygame.mixer.Sound(
-            "c:/Users/Usuario/Documents/Python/Python game (zelda)/Audio/heal.wav"), "flame": pygame.mixer.Sound("c:/Users/Usuario/Documents/Python/Python game (zelda)/Audio/Fire.wav")}
+            "Audio/heal.wav"), "flame": pygame.mixer.Sound("Audio/Fire.wav")}
 
     def heal(self, player, strength, cost, groups):
         if player.energy >= cost:

@@ -7,49 +7,49 @@ class AnimationPlayer:
     def __init__(self):
         self.frames = {
             # magic
-            'flame': import_folder('c:/Users/Usuario/Documents/Python/Python game (zelda)/Graphics/particles/flame/frames'),
-            'aura': import_folder('c:/Users/Usuario/Documents/Python/Python game (zelda)/Graphics/particles/aura'),
-            'heal': import_folder('c:/Users/Usuario/Documents/Python/Python game (zelda)/Graphics/particles/heal/frames'),
+            'flame': import_folder('Graphics/particles/flame/frames'),
+            'aura': import_folder('Graphics/particles/aura'),
+            'heal': import_folder('Graphics/particles/heal/frames'),
 
             # attacks
-            'claw': import_folder('c:/Users/Usuario/Documents/Python/Python game (zelda)/Graphics/particles/claw'),
-            'slash': import_folder('c:/Users/Usuario/Documents/Python/Python game (zelda)/Graphics/particles/slash'),
-            'sparkle': import_folder('c:/Users/Usuario/Documents/Python/Python game (zelda)/Graphics/particles/sparkle'),
-            'leaf_attack': import_folder('c:/Users/Usuario/Documents/Python/Python game (zelda)/Graphics/particles/leaf_attack'),
-            'thunder': import_folder('c:/Users/Usuario/Documents/Python/Python game (zelda)/Graphics/particles/thunder'),
+            'claw': import_folder('Graphics/particles/claw'),
+            'slash': import_folder('Graphics/particles/slash'),
+            'sparkle': import_folder('Graphics/particles/sparkle'),
+            'leaf_attack': import_folder('Graphics/particles/leaf_attack'),
+            'thunder': import_folder('Graphics/particles/thunder'),
 
             # monster deaths
-            'squid': import_folder('c:/Users/Usuario/Documents/Python/Python game (zelda)/Graphics/particles/smoke_orange'),
-            'raccoon': import_folder('c:/Users/Usuario/Documents/Python/Python game (zelda)/Graphics/particles/raccoon'),
-            'spirit': import_folder('c:/Users/Usuario/Documents/Python/Python game (zelda)/Graphics/particles/nova'),
-            'bamboo': import_folder('c:/Users/Usuario/Documents/Python/Python game (zelda)/Graphics/particles/bamboo'),
+            'squid': import_folder('Graphics/particles/smoke_orange'),
+            'raccoon': import_folder('Graphics/particles/raccoon'),
+            'spirit': import_folder('Graphics/particles/nova'),
+            'bamboo': import_folder('Graphics/particles/bamboo'),
 
             # leafs
             'leaf': (
                 import_folder(
-                    'c:/Users/Usuario/Documents/Python/Python game (zelda)/Graphics/particles/leaf1'),
+                    'Graphics/particles/leaf1'),
                 import_folder(
-                    'c:/Users/Usuario/Documents/Python/Python game (zelda)/Graphics/particles/leaf2'),
+                    'Graphics/particles/leaf2'),
                 import_folder(
-                    'c:/Users/Usuario/Documents/Python/Python game (zelda)/Graphics/particles/leaf3'),
+                    'Graphics/particles/leaf3'),
                 import_folder(
-                    'c:/Users/Usuario/Documents/Python/Python game (zelda)/Graphics/particles/leaf4'),
+                    'Graphics/particles/leaf4'),
                 import_folder(
-                    'c:/Users/Usuario/Documents/Python/Python game (zelda)/Graphics/particles/leaf5'),
+                    'Graphics/particles/leaf5'),
                 import_folder(
-                    'c:/Users/Usuario/Documents/Python/Python game (zelda)/Graphics/particles/leaf6'),
+                    'Graphics/particles/leaf6'),
                 self.reflect_images(import_folder(
-                    'c:/Users/Usuario/Documents/Python/Python game (zelda)/Graphics/particles/leaf1')),
+                    'Graphics/particles/leaf1')),
                 self.reflect_images(import_folder(
-                    'c:/Users/Usuario/Documents/Python/Python game (zelda)/Graphics/particles/leaf2')),
+                    'Graphics/particles/leaf2')),
                 self.reflect_images(import_folder(
-                    'c:/Users/Usuario/Documents/Python/Python game (zelda)/Graphics/particles/leaf3')),
+                    'Graphics/particles/leaf3')),
                 self.reflect_images(import_folder(
-                    'c:/Users/Usuario/Documents/Python/Python game (zelda)/Graphics/particles/leaf4')),
+                    'Graphics/particles/leaf4')),
                 self.reflect_images(import_folder(
-                    'c:/Users/Usuario/Documents/Python/Python game (zelda)/Graphics/particles/leaf5')),
+                    'Graphics/particles/leaf5')),
                 self.reflect_images(import_folder(
-                    'c:/Users/Usuario/Documents/Python/Python game (zelda)/Graphics/particles/leaf6'))
+                    'Graphics/particles/leaf6'))
             )
         }
 

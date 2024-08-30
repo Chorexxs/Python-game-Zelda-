@@ -2,6 +2,8 @@
 
 Este es un juego inspirado en los clásicos "The Legend of Zelda" desarrollado en Python utilizando la biblioteca Pygame. El objetivo del juego es explorar un mundo y derrotar a los monstruos que habitan en él.
 
+![alt text](385shots_so.png)
+
 ## Características del juego
 
 - **Gráficos estilo píxel**: El juego cuenta con gráficos retro inspirados en el estilo píxel de los juegos clásicos de Zelda.
